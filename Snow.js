@@ -2,10 +2,9 @@ class Snow{
 	constructor(x,y,r)
 	{
 		var options={
-			isStatic:true,
-			restitution :1.0,
-            friction :1.0,
-			density : 1.0,
+		'restitution':0.3,
+        'friction':0.2,
+        'density':0.5,
 			}
 		this.x=x;
 		this.y=y;
